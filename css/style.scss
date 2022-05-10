@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(236, 236, 236);
+
+    header {
+        height: 80px;
+        line-height: 80px;
+        background-color: rgb(255, 255, 255);
+
+        // .header-content {
+        //     width: 80px;
+        //     position: relative;
+        //     height: 80px;
+        //     background-color: lightgray;
+
+
+            i {
+                // position: absolute;
+                // top: 50%;
+                // left: 50%;
+                // transform: translate(-50%,-50%);
+               
+                // padding: 10px;
+                text-align: center;
+                width: 80px;
+                height: 80px;
+                line-height: 80px;
+                transition: all 1s;
+                
+            }
+            
+        }
+
+        
+        i:hover{
+            background-color: black;
+            color: white;
+        }
+        
+    }
+
+    .container {
+        display: flex;
+    }
+
+    p {
+        font-family: 'Diplomata SC', cursive;
+        font-size: 32px;
+    }
+
+    h1 {
+        margin: auto;
+        color: black;
+    }
+
+    ul {
+        margin: 0 200px;
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-around;
+
+        li {
+            width: 150px;
+            height: 150px;
+            // line-height: 150px;
+            background-color: rgb(193, 242, 255);
+            list-style: none;
+            border-radius: 50%;
+            box-shadow: 3px 2px 2px 2px rgb(179, 179, 179);
+            transition: all 1s;
+
+            &:hover {
+                background-color: rgb(255, 179, 179);
+                color: white;
+            }
+        }
+    }
+}
